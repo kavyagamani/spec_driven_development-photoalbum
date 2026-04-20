@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Album Organizer</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <h1>Photo Album Organizer</h1>
+        <p>Albums are grouped by date and can be reordered by drag-and-drop.</p>
+      </header>
+
+      <main class="page-grid">
+        <section class="albums-section">
+          <div class="section-header">
+            <h2>Albums</h2>
+            <p>Drag albums to reorder them on the main page.</p>
+          </div>
+          <div id="album-list" class="album-list" aria-label="Photo albums"></div>
+        </section>
+
+        <section class="detail-section">
+          <div class="section-header detail-header">
+            <div>
+              <h2 id="selected-album-title">Select an album</h2>
+              <p id="selected-album-subtitle">View photos in a tile preview.</p>
+            </div>
+            <label class="file-input-button">
+              Add photos
+              <input id="add-photos" type="file" accept="image/*" multiple />
+            </label>
+          </div>
+          <div id="album-detail" class="album-detail"></div>
+        </section>
+      </main>
+
+      <div id="status" class="status" aria-live="polite"></div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
