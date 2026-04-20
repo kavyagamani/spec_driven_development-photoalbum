@@ -108,3 +108,6 @@ The following community-contributed extensions are available: catalog.community.
 | Spec Scope | Estimate project effort | process | Read-only | spec-kit-scope |
 | Verify Extension | Validate implementation against specs | code | Read-only | spec-kit-verify |
 | Worktree Isolation | Enable parallel development | process | Read+Write | spec-kit-worktree |
+
+<img width="500" height="300" alt="Screenshot (667)" src="https://github.com/user-attachments/assets/7038c7bf-9ffc-496f-92f1-e1fa8b4ff114" />
+
