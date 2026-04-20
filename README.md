@@ -57,7 +57,7 @@ Spec-Driven Development is a process where:
 
 Browse and search community extensions on the Community Extensions website.
 
-The following community-contributed extensions are available:
+The following community-contributed extensions are available:catalog.community.json
 
 ### Categories:
 - docs — reads, validates, or generates spec artifacts  
